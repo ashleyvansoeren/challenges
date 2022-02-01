@@ -13,7 +13,7 @@
       {{-- </div> --}}
     </div>
   </form>
-  <ul class="bg-sky-300" id="output"><li></li></ul>
+  <ul class="bg-sky-300 w-full max-w-md flex flex-col" id="output"><li></li></ul>
 </div>
 
 
