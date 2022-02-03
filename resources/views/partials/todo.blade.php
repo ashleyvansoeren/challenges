@@ -12,13 +12,26 @@
         </button>
       {{-- </div> --}}
     </div>
+
   </form>
   <ul class="bg-sky-300 w-full max-w-md flex flex-col" id="output"><li></li></ul>
+  </div>
+
 </div>
 
 
 <style>
   button {
     height: 44px;
+  }
+
+  /* this gives me a line trhough the check */
+  /* #taskitem:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+  } */
+  .line-through i{
+      visibility: visible;
   }
   </style>
