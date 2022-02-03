@@ -44,4 +44,8 @@ list.addEventListener('click', function(ev) {
     //ev.target.classList.toggle("before:invisible"); this gives line trough check
 
   }
+
+  if (ev.target.tagName === 'BUTTON') {
+    ev.target.parentElement.classList.toggle("hidden"); //remove the li when clicked on close button
+  }
 }, false);
